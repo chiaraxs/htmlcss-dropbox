@@ -6,16 +6,17 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 .container{
     width: 1200px;
 }
 
-.container-jumbotron{
-    height: 500px;
-    margin: 0 auto;
-    background-color: #b4d0e7;
+/* CLASS UTILITY */
+
+img{
+    width: 100%;
 }
 
 .fl{
@@ -26,6 +27,18 @@ body{
 .fr{
     float: right;
     margin-top: 5px;
+}
+
+.container-header::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.container-jumbotron::after{
+    content: " ";
+    display: table;
+    clear: both;
 }
 
 /* HEADER */
@@ -97,7 +110,40 @@ body{
 
 /* JUMBOTRON */
 
-h1{
-    font-size: 50px;
-    font-weight: ;
+.container-jumbotron{
+    height: 500px;
+    background-color: #b4d0e7;
+    position: relative;
 }
+
+.content-jumbotron{
+    float: left;
+}
+
+.jumbo-title{
+    width: 70%;
+    font-size: 30px;
+    font-weight: 60px;
+    padding: 20px 40px;
+    margin: 0 40px;
+}
+
+.jumbo-details{
+    width: 400px;
+    text-align: justify;
+    padding: 10px 40px;
+    margin: 10px 40px;
+}
+
+.container-jumbotron .button{
+    margin: 0 auto;
+}
+
+.jumbotron-img{
+    width: 800px;
+    float: right;
+    margin-right: 100px;
+    margin-top: -300px;
+}
+
+/* ROW */
