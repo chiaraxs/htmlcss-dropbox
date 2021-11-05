@@ -97,7 +97,7 @@ img{
 }
 
 .button{
-    display: inline-block;
+    display: inline;
     margin: 0 10px;
 }
 
@@ -146,4 +146,48 @@ img{
     margin-top: -300px;
 }
 
-/* ROW */
+/* ROW PRICING */
+
+.container-pricing::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.container-pricing{
+    height: 800px;
+}
+
+.row-header{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 20px;
+
+}
+
+/* ROW LEFT */
+
+.row-left{
+    width: 30%;
+    border: 1px solid gray;
+    float: left;
+    margin: 0 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+.row-central{
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    float: left;
+    margin: 0 20px;
+}
+
+.row-right{
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    float: left;
+    margin: 0 20px;
+}
