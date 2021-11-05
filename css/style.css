@@ -114,6 +114,7 @@ img{
     height: 500px;
     background-color: #b4d0e7;
     position: relative;
+    margin: 0 auto;
 }
 
 .content-jumbotron{
