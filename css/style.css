@@ -163,13 +163,15 @@ img{
     text-align: center;
     margin-top: 150px;
     margin-bottom: 20px;
-
 }
 
-/* ROW LEFT */
+.row{
+    width: 100%;
+}
 
-.row-left{
+.col-left{
     width: 30%;
+    height: 100%;
     border: 1px solid gray;
     float: left;
     margin: 0 20px;
@@ -177,18 +179,31 @@ img{
     padding: 5px;
 }
 
-.row-central{
+.col-central{
     width: 30%;
     height: 100%;
-    background-color: black;
+    border: 1px solid gray;
     float: left;
     margin: 0 20px;
+    text-align: center;
+    padding: 5px;
 }
 
-.row-right{
+.row .col-right{
     width: 30%;
     height: 100%;
-    background-color: black;
+    border: 1px solid gray;
     float: left;
     margin: 0 20px;
+    text-align: center;
+    padding: 5px;
 }
+
+.row p{
+    margin: 20px;
+}
+
+h3{
+    margin: 20px;
+}
+
