@@ -292,3 +292,20 @@ span{
     margin: 50px auto;
     float: left;
 }
+
+.text-partner{
+    width: 500px;
+    margin: 70px 30px 10px 20px ;
+    float: left;
+}
+
+.text-partner p{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.box-partner a {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    margin-left: 10px;
+}
