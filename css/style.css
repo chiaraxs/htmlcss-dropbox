@@ -357,3 +357,47 @@ span{
 .box-scopri a{
     color: #0061ff;
 }
+
+/* BOX CLIENTI */
+
+.box-client{
+    width: auto; 
+    height: 500px;
+    background-color: yellow;
+}
+
+/* BOX PROVA GRATUITA */
+
+.box-freetrial::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.box-freetrial{
+    width: auto; 
+    height: 200px;
+    background-color: #b4d0e7;
+}
+
+.content-freetrial{
+    color: #61082b;
+    font-weight: 400px;
+    margin-top: 80px;
+    margin-left: 300px;
+    float: left;
+}
+
+.box-freetrial .button{
+    float: right;
+    margin-top: 90px;
+    margin-right: 300px;
+}
+
+.box-freetrial a{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+/* DOMANDE FREQUENTI */
