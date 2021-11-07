@@ -401,3 +401,20 @@ span{
 }
 
 /* DOMANDE FREQUENTI */
+
+.question{
+    width: auto;
+    height: 400px;
+    margin: 20px 300px;
+    padding: 20px;
+}
+
+.question h2{
+    margin-left: 0;
+}
+
+.question p{
+    display: inline-block;
+    font-weight: bold;
+
+}
