@@ -244,22 +244,23 @@ span{
 /* BOX ENTERPRISE */
 
 .box-enterprise{
-    margin: 50px auto;
     width: 1200px;
+    margin: 0 auto;
     height: 300px;
+    margin-top: 40px;
 }
 
 .mini-header{
-    width: 1000px;
-    margin-left: 60px  ;
+    width: 1200px;
+    /* margin-left: 60px  ; */
     height: 40px;
     text-align: center;
     border: 1px solid gray;
 }
 
 .team-contact{
-    width: 1000px;
-    margin-left: 60px  ;
+    width: 1200px;
+    /* margin-left: 60px  ; */
     height: 200px;
     border: 1px solid gray;
 }
@@ -275,10 +276,11 @@ span{
    margin-right: 20px;
 }
 
+/* BOX PARTNER */
 .box-partner{
     width: 1200px;
-    height:300px;
-    margin:  auto;
+    height:500px;
+    margin: 0 auto;
 }
 
 .box-partner::after{
@@ -303,9 +305,52 @@ span{
     margin-top: 10px;
     margin-left: 20px;
 }
+
 .box-partner a {
     background-color: white;
     border: 1px solid black;
     color: black;
     margin-left: 10px;
+}
+
+/* BOX DROPBOX BUSINESS */
+
+.drop-business{
+    width: 1200px; 
+    height: 1200px;
+    margin: 0 auto;   
+}
+
+.drop-business::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.business-1, .business-2, .business-3, .business-4, .business-5, .business-6 {
+    width: 300px;
+    height: 300px;
+    margin: 100px 40px;
+    float: left;
+    text-align: left;
+}
+
+.drop-business h3{
+    margin: 0;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.drop-business h1{
+    text-align: center;
+}
+
+/* BOX SCOPRI DI PIU */
+
+.box-scopri{
+    width: 1200px; 
+    height: 500px;
+    margin: 0 auto;   
+    background-color: red;
+
 }
