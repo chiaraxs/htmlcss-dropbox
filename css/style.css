@@ -349,8 +349,11 @@ span{
 
 .box-scopri{
     width: 1200px; 
-    height: 500px;
+    height: 200px;
     margin: 0 auto;   
-    background-color: red;
+    padding: 20px;
+}
 
+.box-scopri a{
+    color: #0061ff;
 }
