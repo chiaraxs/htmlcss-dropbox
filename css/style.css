@@ -418,3 +418,45 @@ span{
     font-weight: bold;
 
 }
+
+
+/* FOOTER */
+
+.container-footer{
+    width: auto; 
+    height: 300px;
+    background-color: black;
+    color: white;
+}
+
+.container-footer::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.foot-section{
+    width: 200px;
+    height: 200px;
+    margin: 20px  50px;
+    float: left;
+}
+
+.container-footer h3{
+    margin: 0;
+}
+
+.container-footer ul li{
+    list-style: none;
+    font-size: 15px;
+}
+
+.container-footer ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+}
+
+.container-footer ul li a:hover {
+    text-decoration: underline white;
+}
