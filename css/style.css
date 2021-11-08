@@ -162,45 +162,42 @@ img{
 }
 
 .row-header{
-    text-align: center;
+    /* text-align: center; */
     margin-top: 150px;
     margin-bottom: 20px;
 }
 
 .option-payment .mensile, .option-payment .annuale{
     display: inline;
-    padding: 30px;
+    padding: 10px;
 }
 
 .row .col-left{
-    width: 30%;
+    width: calc( 100% / 3);
     height: 800px;
     border: 1px solid gray;
     float: left;
-    margin: 0 10px;
+    /* margin: 0 15px; */
     text-align: center;
     line-height: 40px;
-    padding: 5px;
 }
 
 .row .col-central{
-    width: 30%;
+    width: calc( 100% / 3);
     border: 1px solid gray;
     float: left;
-    margin: 0 10px;
+    /* margin: 0 15px;  */
     text-align: center;
     line-height: 40px;
-    padding: 5px;
 }
 
 .row .col-right{
-    width: 30%;
+    width: calc( 100% / 3);
     border: 1px solid gray;
     float: left;
-    margin: 0 10px;
+    /* margin: 0 15px; */
     text-align: center;
     line-height: 40px;
-    padding: 5px;
 }
 
 .small-hr {
@@ -252,15 +249,13 @@ span{
 
 .mini-header{
     width: 1200px;
-    /* margin-left: 60px  ; */
     height: 40px;
     text-align: center;
     border: 1px solid gray;
 }
 
 .team-contact{
-    width: 1200px;
-    /* margin-left: 60px  ; */
+    width: 1200px; 
     height: 200px;
     border: 1px solid gray;
 }
@@ -273,7 +268,7 @@ span{
 
 .box-enterprise .button{
    float: right;
-   margin-right: 20px;
+   margin: 20px;
 }
 
 /* BOX PARTNER */
@@ -341,9 +336,9 @@ span{
     margin-bottom: 20px;
 }
 
-.drop-business h1{
-    text-align: center;
-}
+/* .drop-business h1{
+    margin-left: 0;
+} */
 
 /* BOX SCOPRI DI PIU */
 
@@ -362,9 +357,78 @@ span{
 
 .box-client{
     width: auto; 
-    height: 500px;
-    background-color: yellow;
+    height: 400px;
+    margin-bottom: 0;
 }
+
+.box-client::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.client-col-left{
+    width: 400px;
+}
+
+.designit{
+    background-color: #a2d39b;
+    float: left;
+}
+
+.arizona{
+    background-color: #61082b;
+    float: left;
+}
+
+.florida{
+    background-color:#0093ce;
+    float: left;
+}
+
+.topps{
+    background-color: #ff1c1c;
+    float: left;
+
+}
+
+.designit, .arizona, .florida, .topps{
+    width: 180px;
+	height: 180px;  
+    position: relative;
+}
+
+.box-client img{
+    padding: 30px;
+    filter: invert(100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+.client-colcentral{
+    
+}
+
+.client-colright{
+   
+}
+
+
+
+
+
+
+
+
 
 /* BOX PROVA GRATUITA */
 
@@ -378,20 +442,17 @@ span{
     width: auto; 
     height: 200px;
     background-color: #b4d0e7;
+    padding: 150px 300px;
 }
 
 .content-freetrial{
     color: #61082b;
     font-weight: 400px;
-    margin-top: 80px;
-    margin-left: 300px;
     float: left;
 }
 
 .box-freetrial .button{
     float: right;
-    margin-top: 90px;
-    margin-right: 300px;
 }
 
 .box-freetrial a{
