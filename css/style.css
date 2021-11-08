@@ -358,7 +358,6 @@ span{
 .box-client{
     width: auto; 
     height: 400px;
-    margin-bottom: 0;
 }
 
 .box-client::after{
@@ -369,6 +368,7 @@ span{
 
 .client-col-left{
     width: 400px;
+    float: left;
 }
 
 .designit{
@@ -408,21 +408,30 @@ span{
 }
 
 .client-colcentral{
-    width: 500px;
-    height: 200px;
-    background-color: yellow;
+    width: 700px;
+    height: 360px;
     float: left;
     
 }
 
 
-.client-colcentral.logo-designit{
+.client-colcentral img{
     filter: none;
 }
 
 
 
+
+
+
+
+
 .client-colright{
+    width: 400px;
+    height: 360px;
+    float: left;
+    background-color: black;
+    
    
 }
 
