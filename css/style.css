@@ -407,16 +407,20 @@ span{
     transform: translate(-50%, -50%);
 }
 
-
-
-
-
-
-
-
 .client-colcentral{
+    width: 500px;
+    height: 200px;
+    background-color: yellow;
+    float: left;
     
 }
+
+
+.client-colcentral.logo-designit{
+    filter: none;
+}
+
+
 
 .client-colright{
    
