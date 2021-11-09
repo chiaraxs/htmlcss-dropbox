@@ -134,7 +134,6 @@ span{
 
 .jumbotron-img{
     width: 800px;
-    /* float: right; */
     margin-right: 100px;
     margin-top: -300px;
 }
@@ -303,7 +302,6 @@ span{
 
 .box-scopri a{
     color: #0061ff;
-    /* margin: 50px; */
 }
 
 /* ------------BOX CLIENTI------------- */
@@ -316,50 +314,39 @@ span{
 
 .client-col-left{
     width: 400px;
-    float: left;
 }
 
 .designit{
     background-color: #a2d39b;
-    float: left;
 }
 
 .arizona{
     background-color: #61082b;
-    float: left;
 }
 
 .florida{
     background-color:#0093ce;
-    float: left;
 }
 
 .topps{
     background-color: #ff1c1c;
-    float: left;
-
 }
 
 .bicyclerelief{
     background-color: #d5001f;
-    float: left;
 }
 
 .hearst{
     background-color: #b4d0e7;
-    float: left;
 }
 
 .lonelyplanet{
     background-color: #0d2481;
-    float: left;
 }
 
 .clearchannel{
     background-color: #ffd830;
-    float: left;
 }
-
 
 .designit, .arizona, .florida, .topps, .bicyclerelief, .hearst, .lonelyplanet, .clearchannel{
     width: 200px;
@@ -379,18 +366,13 @@ span{
 .client-colcentral{
     width: 719px;
     height: 360px;
-    float: left;
     background-color: #f5f5f5;
-    
 }
 
 .logo-designit{
     width: 200px;
-    height: 200px;
     padding: 40px;
-    
 }
-
 
 .client-colcentral img{
     filter: none;
@@ -400,15 +382,13 @@ span{
     padding: 0 20px;
 }
 
-
 .client-colright{
     width: 400px;
     height: 360px;
-    float: left;
 }
 
 
-/* BOX PROVA GRATUITA */
+/* --------------BOX PROVA GRATUITA----------- */
 
 .box-freetrial::after{
     content: " ";
@@ -418,19 +398,13 @@ span{
 
 .box-freetrial{
     width: auto; 
-    height: 200px;
     background-color: #b4d0e7;
-    padding: 150px 300px;
+    padding: 80px 250px ;
 }
 
 .content-freetrial{
     color: #61082b;
     font-weight: 400px;
-    float: left;
-}
-
-.box-freetrial .button{
-    float: right;
 }
 
 .box-freetrial a{
@@ -439,11 +413,11 @@ span{
     font-weight: bold;
 }
 
-/* DOMANDE FREQUENTI */
+/* -------------DOMANDE FREQUENTI-------------- */
 
 .question{
     width: auto;
-    height: 400px;
+    height: 500px;
     margin: 20px 300px;
     padding: 20px;
 }
@@ -455,14 +429,15 @@ span{
 .question p{
     display: inline-block;
     font-weight: bold;
-
 }
 
+.question .fas{
+    margin-left: 300px;
+}
 
-/* FOOTER */
+/*----------- FOOTER-------------- */
 
 .container-footer{
-    width: auto; 
     height: 350px;
     background-color: black;
     color: white;
@@ -477,8 +452,7 @@ span{
 .foot-section{
     width: 200px;
     height: 200px;
-    margin: 20px  50px;
-    float: left;
+    margin: 20px 50px;
 }
 
 .container-footer h3{
