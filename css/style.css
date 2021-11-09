@@ -24,20 +24,33 @@ img{
     float: right;
 }
 
+.button{
+    display: inline;
+    margin: 0 20px;
+}
+
+.small-hr {
+    width: 240px;
+    margin-left: 50px;
+    color: gray;
+}
+
+span{
+    color: gray;
+}
+
+.far, .fas{
+    padding: 10px;
+}
+
+
+/* -----------HEADER ------------------ */
+
 .container-header::after{
     content: " ";
     display: table;
     clear: both;
 }
-
-.container-jumbotron::after{
-    content: " ";
-    display: table;
-    clear: both;
-}
-
-
-/* -----------HEADER ------------------ */
 
 .fixed{
   position: fixed; 
@@ -78,11 +91,6 @@ img{
     padding: 15px;
 }
 
-.button{
-    display: inline;
-    margin: 0 20px;
-}
-
 .button a {
     background-color: #0061ff;
     color: white;
@@ -90,17 +98,19 @@ img{
     padding: 5px 20px;
 }
 
-/* JUMBOTRON */
+/* ------------- JUMBOTRON ------------ */
+
+.container-jumbotron::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
 
 .container-jumbotron{
     height: 500px;
     background-color: #b4d0e7;
     position: relative;
     margin: 60px 0;
-}
-
-.content-jumbotron{
-    float: left;
 }
 
 .jumbo-title{
@@ -124,12 +134,12 @@ img{
 
 .jumbotron-img{
     width: 800px;
-    float: right;
+    /* float: right; */
     margin-right: 100px;
     margin-top: -300px;
 }
 
-/* ROW PRICING */
+/* ------------- ROW PRICING --------------*/
 
 .container-pricing::after{
     content: " ";
@@ -152,11 +162,10 @@ img{
     padding: 10px;
 }
 
-.row .col-left{
+.row .col-left, .row .col-right{
     width: 32%;
     height: 800px;
     border: 1px solid gray;
-    float: left;
     text-align: center;
     line-height: 40px;
 }
@@ -165,38 +174,14 @@ img{
     width: 32%;
     height: 800px;
     border: 1px solid gray;
-    float: left;
     margin: 0 2%; 
     text-align: center;
     line-height: 40px;
 }
 
-.row .col-right{
-    width: 32%;
-    height: 800px;
-    border: 1px solid gray;
-    float: left;
-    text-align: center;
-    line-height: 40px;
-}
-
-.small-hr {
-    width: 240px;
-    margin-left: 50px;
-    color: gray;
-}
-
-span{
-    color: gray;
-}
-
 .p-row{
     line-height: 10px;
     margin-bottom: 20px;
-}
-
-.far, .fas{
-    padding: 10px;
 }
 
 .shop-now a{
@@ -218,7 +203,13 @@ span{
     color: #0061ff;
 }
 
-/* BOX ENTERPRISE */
+/* -------------------BOX ENTERPRISE--------------- */
+
+.box-enterprise::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
 
 .box-enterprise{
     width: 1200px;
@@ -241,17 +232,13 @@ span{
 }
 
 .team-contact p, h2, h3{   
-    margin-left: 20px;
+    margin-left: 20px; 
     margin-top: 10px;
-    line-height: 40px;
+    line-height: 40px; 
 }
 
-.box-enterprise .button{
-   float: right;
-   margin: 20px;
-}
+/* ---------BOX PARTNER-------- */
 
-/* BOX PARTNER */
 .box-partner{
     width: 1200px;
     height:500px;
@@ -266,13 +253,11 @@ span{
 
 .box-img{
     width: 500px;
-    float: left;
 }
 
 .text-partner{
     width: 500px;
     margin: 70px 30px 10px 20px ;
-    float: left;
 }
 
 .text-partner p{
@@ -284,10 +269,9 @@ span{
     background-color: white;
     border: 1px solid black;
     color: black;
-    margin-left: 10px;
 }
 
-/* BOX DROPBOX BUSINESS */
+/* ------------ BOX DROPBOX BUSINESS ------------- */
 
 .drop-business{
     width: 1200px; 
@@ -305,19 +289,10 @@ span{
     width: 300px;
     height: 300px;
     margin: 100px 40px;
-    float: left;
     text-align: left;
 }
 
-.drop-business h3{
-    margin: 0;
-    line-height: 30px;
-    margin-bottom: 20px;
-}
-
-
-
-/* BOX SCOPRI DI PIU */
+/* ------------BOX SCOPRI DI PIU --------------- */
 
 .box-scopri{
     width: 1200px; 
@@ -328,9 +303,10 @@ span{
 
 .box-scopri a{
     color: #0061ff;
+    /* margin: 50px; */
 }
 
-/* BOX CLIENTI */
+/* ------------BOX CLIENTI------------- */
 
 .box-client::after{
     content: " ";
