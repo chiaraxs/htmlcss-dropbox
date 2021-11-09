@@ -9,24 +9,19 @@ body{
     
 }
 
-.container{
-    width: 1300px;
-}
 
-/* CLASS UTILITY */
+/* ------------------------ CLASS UTILITY ----------------------- */
 
 img{
     width: 100%;
 }
 
 .fl{
-    float: 0 left;
-    margin-top: 5px;
+    float: left;
 }
 
 .fr{
     float: right;
-    margin-top: 5px;
 }
 
 .container-header::after{
@@ -42,10 +37,15 @@ img{
 }
 
 
-/* HEADER */
+/* -----------HEADER ------------------ */
 
-.container-header{
-    width: auto;
+.fixed{
+  position: fixed; 
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+  top: 0; 
+  width: 100%; 
+  z-index: 1001;
 }
 
 .logo, .navbar-left {
@@ -57,49 +57,30 @@ img{
     vertical-align: middle;
 }
 
-.navbar-left ul {
+.navbar-left ul, .navbar-right ul {
     list-style: none;
-    padding: 15px 50px; 
+    padding: 20px; 
     vertical-align: middle; 
 }
 
-.navbar-left ul li {
+.navbar-left ul li, .navbar-right ul li {
     display: inline-block;
-}
-
-.navbar-left ul li a:hover {
-    text-decoration: underline black;
-}
-
-.navbar-left ul li a {
-    color: black;
-    text-decoration: none;
-    padding: 15px 
-}
-
-.navbar-right ul {
-    list-style: none;
     vertical-align: middle;
-    padding: 15px 40px;
 }
 
-.navbar-right ul li {
-    display: inline-block;
-}
-
-.navbar-right ul li a:hover {
+.navbar-left ul li a:hover, .navbar-right ul li a:hover{
     text-decoration: underline black;
 }
 
-.navbar-right ul li a {
+.navbar-left ul li a, .navbar-right ul li a  {
     color: black;
     text-decoration: none;
-    padding: 20px 
+    padding: 15px;
 }
 
 .button{
     display: inline;
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 .button a {
@@ -115,7 +96,7 @@ img{
     height: 500px;
     background-color: #b4d0e7;
     position: relative;
-    margin: 0 auto;
+    margin: 60px 0;
 }
 
 .content-jumbotron{
@@ -351,11 +332,6 @@ span{
 
 /* BOX CLIENTI */
 
-.box-client{
-    width: auto; 
-    height: 360px;
-}
-
 .box-client::after{
     content: " ";
     display: table;
@@ -435,7 +411,8 @@ span{
 .logo-designit{
     width: 200px;
     height: 200px;
-    padding: 20px;
+    padding: 40px;
+    
 }
 
 
