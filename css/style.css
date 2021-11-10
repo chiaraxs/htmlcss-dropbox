@@ -230,7 +230,7 @@ span{
     border: 1px solid gray;
 }
 
-.team-contact p, h2, h3{   
+.team-contact p, .box-enterprise h2, .box-enterprise h3, .box-partner h2{   
     margin-left: 20px; 
     margin-top: 10px;
     line-height: 40px; 
@@ -240,7 +240,7 @@ span{
 
 .box-partner{
     width: 1200px;
-    height:500px;
+    height: 500px;
     margin: 0 auto;
 }
 
@@ -310,6 +310,10 @@ span{
     content: " ";
     display: table;
     clear: both;
+}
+
+.h-100{
+    height: 100%;
 }
 
 .client-col-left{
